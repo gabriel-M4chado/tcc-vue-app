@@ -56,9 +56,10 @@ export default {
 
       const formData = new FormData();
       formData.append('file', this.file);
+      const ngrokUrl = 'https://a745-34-106-241-220.ngrok-free.app/';
 
       try {
-        const response = await fetch('https://a745-34-106-241-220.ngrok-free.app/process', {
+        const response = await fetch(`${ngrokUrl}process`, {
           method: 'POST',
           body: formData,
         });
