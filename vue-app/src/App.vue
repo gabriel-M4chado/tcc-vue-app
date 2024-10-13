@@ -23,6 +23,10 @@
 </template>
 
 <script>
+
+import { Chart, registerables } from 'chart.js';
+Chart.register(...registerables);
+
 export default {
   data() {
     return {
