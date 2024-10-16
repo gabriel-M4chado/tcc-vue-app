@@ -15,7 +15,7 @@
     </div>
   </div>
   
-  <canvas id="cashFlowChart"></canvas>
+  <canvas id="cashFlowChart" v-show="hideElement"></canvas>
 </template>
 
 <script>
@@ -28,6 +28,7 @@ export default {
     return {
       file: null,
       errorMessage: '',
+      hideElement: true,
     };
   },
   methods: {
@@ -80,6 +81,7 @@ export default {
         this.$refs.fileInput.value = '';
 
         if (result.hasOwnProperty("data_20000") || result.hasOwnProperty("data_40000") || result.hasOwnProperty("data_8000")) {
+          this.hideElement = false;
           this.generateCharts(result);
         } else {
           this.errorMessage = 'Nenhum dado encontrado.';
