@@ -14,8 +14,6 @@
       <button @click="uploadFile">Enviar Planilha</button>
     </div>
   </div>
-  
-  <canvas id="cashFlowChart" v-show="hideElement"></canvas>
 </template>
 
 <script>
@@ -27,8 +25,7 @@ export default {
   data() {
     return {
       file: null,
-      errorMessage: '',
-      hideElement: true,
+      errorMessage: ''
     };
   },
   methods: {
@@ -81,7 +78,6 @@ export default {
         this.$refs.fileInput.value = '';
 
         if (result.hasOwnProperty("data_20000") || result.hasOwnProperty("data_40000") || result.hasOwnProperty("data_8000")) {
-          this.hideElement = false;
           this.generateCharts(result);
         } else {
           this.errorMessage = 'Nenhum dado encontrado.';
@@ -101,7 +97,7 @@ export default {
         const predictedRFValues = dataset.map(item => item.ValorPrevisto_RF);
 
         const ctx = document.createElement('canvas');  // Cria um gráfico conforme cada capacidade
-        document.body.appendChild(ctx); 
+        document.body.appendChild(ctx);
         ctx.getContext('2d');
 
         new Chart(ctx, {
@@ -205,5 +201,7 @@ input[type="file"] {
 
 canvas {
   max-width: 100%;
+  height: 50vh;
+  max-height: 900px;
 }
 </style>
