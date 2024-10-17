@@ -183,7 +183,8 @@ export default {
 
 <style>
 .file-upload {
-  border: 2px dashed #ccc;
+  background: rgba(225, 253, 255, 0.288);
+  border: 2px dashed black;
   padding: 20px;
   width: 300px;
   text-align: center;
@@ -193,7 +194,8 @@ export default {
   cursor: pointer;
   padding: 20px;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #d8d6d65d;
+  font-weight: bold;
 }
 
 input[type="file"] {
