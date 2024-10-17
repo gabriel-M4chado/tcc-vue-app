@@ -56,7 +56,7 @@ export default {
 
       const formData = new FormData();
       formData.append('file', this.file);
-      const ngrokUrl = 'https://38f3-34-46-207-141.ngrok-free.app/';
+      const ngrokUrl = 'https://f9d3-34-125-34-90.ngrok-free.app/';
 
       try {
         const response = await fetch(`${ngrokUrl}process`, {
@@ -87,6 +87,12 @@ export default {
       }
     },
     generateCharts(data) {
+      let canvasElements = document.querySelectorAll('canvas');
+
+      if (canvasElements) {
+        canvasElements.forEach(canvas => canvas.remove());
+      }
+
       Object.keys(data).forEach(key => {
         const dataset = data[key];
 
