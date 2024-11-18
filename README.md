@@ -58,7 +58,7 @@ OBS: O servidor será iniciado em localhost:5000 e a URL pública do Ngrok será
 <ol>
   <li>Abra o arquivo .ipynb diretamente no Google Colab.</li>
   <li>Faça o upload do arquivo fair_value_prediction.ipynb.</li>
-  <li>Certifique-se de instalar as dependências conforme os comandos litados no arquivo [/scripts/testApiMachineLearning.ipynb](https://github.com/gabriel-M4chado/tcc-vue-app/blob/main/scripts/testApiMachineLearning.ipynb), exemplo :</li>
+  <li>Certifique-se de instalar as dependências conforme os comandos litados no arquivo <a href="https://github.com/gabriel-M4chado/tcc-vue-app/blob/main/scripts/testApiMachineLearning.ipynb">testApiMachineLearning.ipynb</a>, exemplo:</li>
 </ol>
 
 ``` 
