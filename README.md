@@ -31,7 +31,7 @@ Certifique-se de ter instalado em sua máquina:
 
 ```
 git clone https://github.com/gabriel-M4chado/tcc-vue-app
-cd nome-do-repositorio/backend
+cd tcc-vue-app/backend
 
 ```
 
