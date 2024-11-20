@@ -37,23 +37,23 @@ cd tcc-vue-app/backend
 
 
 
-🔧 Configuração do Backend (Python ou Google Colab)
+### 2. 🔧Configuração do Backend (Python ou Google Colab)
 
 
-2.1. Configuração do Ambiente Virtual Python (Local)
-2.1.1. Criação do ambiente virtual
+#### 2.1. Configuração do Ambiente Virtual Python (Local)
+##### 2.1.1. Criação do ambiente virtual
 python -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 
-2.1.2. Configurar o arquivo .env (opcional)
+##### 2.1.2. Configurar o arquivo .env (opcional)
 NGROK_AUTH_TOKEN=seu-token-ngrok
 python api.py
 
 OBS: O servidor será iniciado em localhost:5000 e a URL pública do Ngrok será gerada automaticamente.
 
-2.2. Execução no Google Colab
+#### 2.2. Execução no Google Colab
 
 <ol>
   <li>Abra o arquivo .ipynb diretamente no Google Colab.</li>
@@ -72,10 +72,9 @@ OBS: O servidor será iniciado em localhost:5000 e a URL pública do Ngrok será
 
 <hr>
 
-🌐 Configuração do Frontend (Vue.js)
+### 3🌐 Configuração do Frontend (Vue.js)
 
-
-3.1. Instalar dependências do frontend
+#### 3.1. Instalar dependências do frontend
 
 ```
 cd vue-app
