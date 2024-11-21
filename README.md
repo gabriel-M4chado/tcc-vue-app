@@ -40,7 +40,7 @@ cd tcc-vue-app/backend
 
 #### 2.1. Configuração do Ambiente Virtual Python (Local)
 > [!TIP]
-> Execute a instalação conforme contido no arquivo testApiMachineLearning.py
+> Execute a instalação conforme o código do arquivo testApiMachineLearning.py
 
 ##### 2.1.1. Criação do ambiente virtual
 python -m venv venv
