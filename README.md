@@ -43,8 +43,10 @@ cd tcc-vue-app/backend
 > Execute a instalação conforme o código do arquivo testApiMachineLearning.py
 
 ##### 2.1.1. Criação do ambiente virtual
+```
 python -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
+```
 **Exemplo:** !pip install Flask pyngrok pandas scikit-learn flask_cors
 
 ##### 2.1.2. Informar o token dentro do arquivo
