@@ -42,7 +42,7 @@ cd tcc-vue-app/backend
 ##### 2.1.1. Criação do ambiente virtual
 python -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
-pip install -r requirements.txt
+**Exemplo:** !pip install Flask pyngrok pandas scikit-learn flask_cors
 
 
 ##### 2.1.2. Informar o token dentro do arquivo
