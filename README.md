@@ -45,9 +45,9 @@ source venv/bin/activate  # No Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 
-##### 2.1.2. Configurar o arquivo .env (opcional) ou apenas alterar um dos arquivo na pastas scripts para informar o token
+##### 2.1.2. Informar o token dentro do arquivo
 NGROK_AUTH_TOKEN=seu-token-ngrok 
-python api.py
+python testApiMachineLearning.py
 
 OBS: O servidor será iniciado em localhost:5000 e a URL pública do Ngrok será gerada automaticamente.
 
