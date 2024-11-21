@@ -39,11 +39,13 @@ cd tcc-vue-app/backend
 
 
 #### 2.1. Configuração do Ambiente Virtual Python (Local)
+> [!TIP]
+> Execute a instalação conforme contido no arquivo testApiMachineLearning.py
+
 ##### 2.1.1. Criação do ambiente virtual
 python -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
 **Exemplo:** !pip install Flask pyngrok pandas scikit-learn flask_cors
-
 
 ##### 2.1.2. Informar o token dentro do arquivo
 NGROK_AUTH_TOKEN=seu-token-ngrok 
