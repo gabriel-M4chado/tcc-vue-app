@@ -6,8 +6,8 @@
 Um sistema de análise preditiva desenvolvido para determinar o valor justo a receber na indústria avícola, utilizando algoritmos de Machine Learning como Random Forest e Gradient Boosting. Esta aplicação fornece uma API construída com Flask, exposta via Ngrok, e uma interface frontend utilizando Vue.js com Vite.
 
 ## 📋 Índice
-- [Pré-requisitos](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#pr%C3%A9-requisitos)
-- [Instalação](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#instala%C3%A7%C3%A3o)
+- [Pré-requisitos](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#-pr%C3%A9-requisitos)
+- [Instalação](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#-instala%C3%A7%C3%A3o)
 - [Configuração do Backend (Python ou Google Colab)](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#configura%C3%A7%C3%A3o-do-backend-python-ou-google-colab)
 - [Configuração do Frontend (Vue.js)](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#configura%C3%A7%C3%A3o-do-frontend-vuejs)
 - [Uso da API](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#uso-da-api)
