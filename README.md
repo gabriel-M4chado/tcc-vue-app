@@ -47,7 +47,6 @@ cd tcc-vue-app/backend
 python -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
 ```
-**Exemplo:** !pip install Flask pyngrok pandas scikit-learn flask_cors
 
 ##### 2.1.2. Informar o token dentro do arquivo e execute o script
 NGROK_AUTH_TOKEN=seu-token-ngrok 
