@@ -6,14 +6,13 @@
 Um sistema de análise preditiva desenvolvido para determinar o valor justo a receber na indústria avícola, utilizando algoritmos de Machine Learning como Random Forest e Gradient Boosting. Esta aplicação fornece uma API construída com Flask, exposta via Ngrok, e uma interface frontend utilizando Vue.js com Vite.
 
 ## 📋 Índice
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação](#instalação)
-- [Configuração do Backend (Python ou Google Colab)](#configuração-do-backend-python-ou-google-colab)
-- [Configuração do Frontend (Vue.js)](#configuração-do-frontend-vuejs)
-- [Uso da API](#uso-da-api)
+- [Pré-requisitos](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#pr%C3%A9-requisitos)
+- [Instalação](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#instala%C3%A7%C3%A3o)
+- [Configuração do Backend (Python ou Google Colab)](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#configura%C3%A7%C3%A3o-do-backend-python-ou-google-colab)
+- [Configuração do Frontend (Vue.js)](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#configura%C3%A7%C3%A3o-do-frontend-vuejs)
+- [Uso da API](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#uso-da-api)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## 🛠 Pré-requisitos
 
@@ -72,7 +71,7 @@ OBS: O servidor será iniciado em localhost:5000 e a URL pública do Ngrok será
 
 <hr>
 
-### 3🌐 Configuração do Frontend (Vue.js)
+### 3. 🌐 Configuração do Frontend (Vue.js)
 
 #### 3.1. Instalar dependências do frontend
 
@@ -83,7 +82,7 @@ npm install
 ```
 
 
-🎯 Uso da API
+### 4. 🎯 Uso da API
 
 - Forma manual: 
 
@@ -125,7 +124,7 @@ Abra o navegador em http://localhost:5173 para acessar a aplicação.
 🤝 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
 
-Como Contribuir:
+### Como Contribuir:
 <ol>
   <li>Faça um fork do projeto.</li>
   <li>Crie uma branch para sua feature (git checkout -b minha-feature).</li>
