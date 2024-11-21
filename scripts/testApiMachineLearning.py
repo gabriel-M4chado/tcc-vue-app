@@ -7,7 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1B5Qbqpv0lmoyjXK3lfU_akkS1HSgR2q0
 """
 
-!pip install Flask pyngrok pandas scikit-learn flask_cors
+import subprocess
+subprocess.check_call(["pip", "install", "Flask", "pyngrok", "pandas", "scikit-learn", "flask_cors"])
 
 import getpass
 import os
@@ -137,7 +138,7 @@ def process_data():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
-!ngrok authtoken #remova o comentário e informe o token ngrok
+ngrok.set_auth_token("YOUR_NGROK_AUTH_TOKEN") #remova o comentário e informe o token ngrok
 
 # Expor o app Flask usando ngrok
 public_url = ngrok.connect(5000)
