@@ -8,10 +8,9 @@ Um sistema de análise preditiva desenvolvido para determinar o valor justo a re
 ## 📋 Índice
 - [Pré-requisitos](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#-pr%C3%A9-requisitos)
 - [Instalação](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#-instala%C3%A7%C3%A3o)
-- [Configuração do Backend (Python ou Google Colab)](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#configura%C3%A7%C3%A3o-do-backend-python-ou-google-colab)
-- [Configuração do Frontend (Vue.js)](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#configura%C3%A7%C3%A3o-do-frontend-vuejs)
-- [Uso da API](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#uso-da-api)
-- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Configuração do Backend (Python ou Google Colab)](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#2-configura%C3%A7%C3%A3o-do-backend-python-ou-google-colab)
+- [Configuração do Frontend (Vue.js)](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#3--configura%C3%A7%C3%A3o-do-frontend-vuejs)
+- [Uso da API](https://github.com/gabriel-M4chado/tcc-vue-app?tab=readme-ov-file#4--uso-da-api)
 - [Contribuição](#contribuição)
 
 ## 🛠 Pré-requisitos
