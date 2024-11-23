@@ -21,6 +21,21 @@ Certifique-se de ter instalado em sua máquina:
 - **Ngrok**
 - **Google Colab** (opcional para execução no Jupyter Notebook)
 
+> [!IMPORTANT]
+> A planilha precisa conter os seguintes campos: 
+> - Capacidade
+> - peso
+> - diasTratamento
+> - bonificacaoEmpresa
+> - Descontos
+> - CreditoMortalidade
+> - Temperatura
+> - Umidade
+> - QualidadeSolo
+> - Infraestrutura
+> - CA
+> - ValorRecebido
+
 <hr>
 
 ## 🚀 Instalação
