@@ -40,18 +40,9 @@ Certifique-se de ter instalado em sua máquina:
 
 ## 🚀 Instalação
 
-### 1. Clone o repositório
-
-```
-git clone https://github.com/gabriel-M4chado/tcc-vue-app
-cd tcc-vue-app/backend
-
-```
-
-
+### 1. [Clone o repositório](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 ### 2. 🔧Configuração do Backend (Python ou Google Colab)
-
 
 #### 2.1. Configuração do Ambiente Virtual Python (Local)
 > [!TIP]
