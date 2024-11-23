@@ -23,18 +23,18 @@ Certifique-se de ter instalado em sua máquina:
 
 > [!IMPORTANT]
 > A planilha precisa conter os seguintes campos: 
-> - Capacidade
-> - peso
-> - diasTratamento
-> - bonificacaoEmpresa
-> - Descontos
-> - CreditoMortalidade
-> - Temperatura
-> - Umidade
-> - QualidadeSolo
-> - Infraestrutura
-> - CA
-> - ValorRecebido
+> 1. Capacidade
+> 2. peso
+> 3. diasTratamento
+> 4. bonificacaoEmpresa
+> 5. Descontos
+> 6. CreditoMortalidade
+> 7. Temperatura
+> 8. Umidade
+> 9. QualidadeSolo
+> 10. Infraestrutura
+> 11. CA
+> 12. ValorRecebido
 
 <hr>
 
