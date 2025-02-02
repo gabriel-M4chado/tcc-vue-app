@@ -56,7 +56,7 @@ export default {
 
       const formData = new FormData();
       formData.append('file', this.file);
-      const ngrokUrl = 'https://f9d3-34-125-34-90.ngrok-free.app/';
+      const ngrokUrl = 'https://3d0d-34-74-1-76.ngrok-free.app/';
 
       try {
         const response = await fetch(`${ngrokUrl}process`, {
@@ -96,11 +96,17 @@ export default {
       Object.keys(data).forEach(key => {
         const dataset = data[key];
 
-        // Extração dos valores "Capacidade", "ValorRecebido", "ValorPrevisto_GB" e "ValorPrevisto_RF" para o gráfico
+        // Extração dos valores "Capacidade", "ValorRecebido", "ValorPrevisto_GB", "ValorPrevisto_RF", "ValorPrevisto_Lasso",
+        // "ValorPrevisto_LR", "ValorPrevisto_XGBoost", "ValorPrevisto_CatBoost" e "ValorPrevisto_LGBM" para o gráfico
         const capacities = dataset.map(item => item.Capacidade);
         const receivedValues = dataset.map(item => item.ValorRecebido);
         const predictedGBValues = dataset.map(item => item.ValorPrevisto_GB);
         const predictedRFValues = dataset.map(item => item.ValorPrevisto_RF);
+        const predictedLassoValues = dataset.map(item => item.ValorPrevisto_Lasso);
+        const predictedLRValues = dataset.map(item => item.ValorPrevisto_LR);
+        const predictedXGBoostValues = dataset.map(item => item.ValorPrevisto_XGB);
+        const predictedCatBoostValues = dataset.map(item => item.ValorPrevisto_CB);
+        const predictedLGBMValues = dataset.map(item => item.ValorPrevisto_LGBM);
 
         const ctx = document.createElement('canvas');  // Cria um gráfico conforme cada capacidade
         document.body.appendChild(ctx);
@@ -136,6 +142,51 @@ export default {
                 borderWidth: 2,
                 borderDash: [5, 5],
                 fill: true
+              },
+              {
+                label: 'Valor previsto pelo modelo Lasso',
+                data: predictedLassoValues,
+                borderColor: 'purple',
+                backgroundColor: 'rgba(128, 0, 128, 0.1)',
+                borderWidth: 2,
+                borderDash: [5, 5],
+                fill: true
+              },
+              {
+                label: 'Valor previsto pelo modelo LR',
+                data: predictedLRValues,
+                borderColor: 'orange',
+                backgroundColor: 'rgba(255, 165, 0, 0.1)',
+                borderWidth: 2,
+                borderDash: [5, 5],
+                fill: true
+              },
+              {
+                label: 'Valor previsto pelo modelo XGBoost',
+                data: predictedXGBoostValues,
+                borderColor: 'brown',
+                backgroundColor: 'rgba(165, 42, 42, 0.1)',
+                borderWidth: 2,
+                borderDash: [5, 5],
+                fill: true
+              },
+              {
+                label: 'Valor previsto pelo modelo CatBoost',
+                data: predictedCatBoostValues,
+                borderColor: 'pink',
+                backgroundColor: 'rgba(255, 192, 203, 0.1)',
+                borderWidth: 2,
+                borderDash: [5, 5],
+                fill: true
+              },
+              {
+                label: 'Valor previsto pelo modelo LGBM',
+                data: predictedLGBMValues,
+                borderColor: 'yellow',
+                backgroundColor: 'rgba(255, 255, 0, 0.1)',
+                borderWidth: 2,
+                borderDash: [5, 5],
+                fill: true
               }
             ]
           },
@@ -166,7 +217,7 @@ export default {
               },
               title: {
                 display: true,
-                text: `Cash Flow - ${key} - Valor Recebido vs Valor previsto pelo modelo`  // Título dinâmico baseado na capacidade
+                text: `Cash Flow - ${key} - Valor Recebido vs Valor previsto pelos modelos`
               },
               tooltip: {
                 mode: 'index',
